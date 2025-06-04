@@ -2,13 +2,13 @@
 
 ![image](https://github.com/user-attachments/assets/2d9d67d1-5e8e-402c-b07d-b103621b71c2)
 
-Projeto 1 – Análise Exploratória da Presença Feminina no Mercado de Trabalho
+# Projeto 1 - Como as desigualdades de gênero impactam mulheres no mercado de trabalho?
 
 Este projeto realiza uma Análise Exploratória de Dados (EDA) sobre a presença das mulheres na força de trabalho global, com foco em indicadores como nível de escolaridade, região geográfica e taxa de desemprego, ao longo dos últimos anos. Os dados são oriundos do Gender Data Portal – World Bank Group, e visam evidenciar padrões de desigualdade de gênero e seus possíveis determinantes educacionais e econômicos.
 
 ⸻
 
-Objetivos
+## Objetivos
 	•	Analisar a participação feminina na força de trabalho com recortes por região e escolaridade.
 	•	Investigar a taxa de desemprego entre mulheres, segmentada por nível educacional.
 	•	Observar variações regionais e tendências temporais nesses indicadores.
@@ -16,7 +16,7 @@ Objetivos
 
 ⸻
 
-Fontes de Dados
+## Fontes de Dados
 
 Os dados foram extraídos diretamente das APIs públicas do Gender Data Portal (World Bank Group). Foram utilizadas as seguintes séries históricas:
 	•	Labor force participation rate, female (% of female population ages 15+)
@@ -30,7 +30,7 @@ As variáveis estão desagregadas por:
 
 ⸻
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 A análise foi conduzida em Python 3.11+, com execução no ambiente do Google Colab.
 
@@ -42,7 +42,7 @@ Principais bibliotecas utilizadas:
 
 ⸻
 
-Metodologia e Visualizações
+## Metodologia e Visualizações
 
 A análise envolveu as seguintes etapas:
 	1.	Coleta automatizada de dados via API REST
@@ -58,7 +58,7 @@ Visualizações geradas:
 
 ⸻
 
-Conclusões Principais
+## Conclusões Principais
 	•	Existe uma correlação positiva entre nível educacional e participação feminina no mercado de trabalho.
 	•	Regiões mais desenvolvidas (como Europa e América do Norte) apresentam maior taxa de participação de mulheres com ensino superior.
 	•	Países de baixa renda mostram menor escolarização feminina e maior desigualdade de acesso ao trabalho formal.
@@ -66,7 +66,7 @@ Conclusões Principais
 
 ⸻
 
-Reprodutibilidade
+## Reprodutibilidade
 
 O notebook principal pode ser executado diretamente no Google Colab.
 Todos os dados são públicos, e as chamadas à API do World Bank não requerem autenticação.
