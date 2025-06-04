@@ -19,17 +19,32 @@ Os dados foram obtidos do [**Gender Data Portal – World Bank Group**](https://
 
 ## Fontes de Dados
 
-Dados extraídos diretamente da **API pública** do [**World Bank Group**](https://data.worldbank.org/indicator).
+Os dados foram extraídos diretamente da **API pública** do [**World Bank Group**](https://data.worldbank.org/indicator).
 
 ### Séries utilizadas:
+
 - `Labor force participation rate, female (% of female population ages 15+)`
 - `Unemployment rate, female (% of female labor force)`
+- `Women in parliament (% of total seats)`  
+- `Women in ministerial positions (% of total ministers)`  
+- `Women in managerial positions (% of total management)`  
+- `Share of graduates who are female by field of education`
+
+### Bases de dados e descrição:
+
+- **`parliament_pos`**: Dados percentuais da participação de mulheres em cargos nos parlamentos e congressos do governo. Distribuídos por país, região geográfica e nível de renda.
+
+- **`ministry_pos`**: Dados percentuais de participação de mulheres nos ministérios do governo. Distribuídos por país, região geográfica e nível de renda.
+
+- **`management_pos`**: Dados percentuais de participação de mulheres em cargos de gerência (níveis intermediário e sênior). Distribuídos por país e região geográfica.
+
+- **`graduates`**: Dados percentuais da formação de mulheres em diversos cursos superiores. Distribuídos por país, região geográfica e nível de renda.
 
 ### Variáveis desagregadas por:
 - Gênero  
 - Nível educacional: **Primário**, **Secundário** e **Terciário**  
 - Região geográfica (segundo classificação do Banco Mundial)  
-- Faixa de renda nacional: **baixa**, **média** e **alta renda**
+- Faixa de renda nacional: **média-baixa**, **média-alta** e **alta renda**
 
 ---
 
@@ -43,18 +58,16 @@ Principais bibliotecas:
 |------------|--------|
 | `pandas`   | Manipulação e transformação de dados |
 | `plotly`   | Visualizações interativas e responsivas |
-| `requests` | Acesso à API REST do World Bank |
 | `numpy`    | Estatísticas e vetorização de operações |
 
 ---
 
 ## Metodologia
 
-1. Coleta automatizada dos dados via API REST  
-2. Limpeza e padronização dos `DataFrames`  
-3. Agrupamentos estatísticos por categoria (região, escolaridade, renda)  
-4. Geração de visualizações interativas (com `plotly`)  
-5. Observações descritivas baseadas em **tendências**, **dispersões** e **medianas**
+1. Limpeza e padronização dos `DataFrames`  
+2. Agrupamentos estatísticos por categoria (região, escolaridade, renda)  
+3. Geração de visualizações interativas (com `plotly`)  
+4. Observações descritivas baseadas em **tendências**, **dispersões** e **medianas**
 
 ### Visualizações geradas:
 - Séries temporais (2010–2022) da participação e desemprego feminino  
