@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/2d9d67d1-5e8e-402c-b07d-b103621b71c2)
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CD-IMT-Projeto-1-2025/projeto1-eda/blob/main/IMT_CD_Projeto_S1.ipynb)
+
 # 📊 Análise Exploratória: Presença Feminina no Mercado de Trabalho
 
 Este projeto realiza uma análise exploratória (EDA) sobre a presença das mulheres na força de trabalho global, com foco em **níveis de escolaridade**, **regiões do mundo** e **taxa de desemprego**. Os dados são provenientes do [Gender Data Portal do World Bank Group](https://genderdata.worldbank.org/).
